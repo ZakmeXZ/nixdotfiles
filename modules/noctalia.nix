@@ -22,7 +22,7 @@
           contentPadding = 2;
           fontScale = 1;
           enableExclusionZoneInset = true;
-          backgroundOpacity = 1.0;
+          backgroundOpacity = 0.93;
           useSeparateOpacity = false;
           marginVertical = 4;
           marginHorizontal = 4;
@@ -365,7 +365,7 @@
           position = "bottom";
           displayMode = "auto_hide";
           dockType = "floating";
-          backgroundOpacity = 1;
+          backgroundOpacity = 1.0;
           floatingRatio = 1;
           size = 1;
           onlySameOutput = true;
