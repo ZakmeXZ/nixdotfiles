@@ -154,7 +154,7 @@
           smoothScrollEnabled = true;
         };
         ui = {
-          fontDefault = "";
+          fontDefault = "DejaVu Sans";
           fontFixed = "";
           fontDefaultScale = 1;
           fontFixedScale = 1;
