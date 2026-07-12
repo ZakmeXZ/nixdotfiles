@@ -7,7 +7,6 @@
         ./zsh.nix
         ./niri/niri.nix
         ./noctalia.nix
-        ./stylix.nix
     ];
 }
 
