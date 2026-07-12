@@ -483,7 +483,7 @@
           location = "top_right";
           autoHideMs = 2000;
           overlayLayer = true;
-          backgroundOpacity = 1;
+          backgroundOpacity = 1.0;
           enabledTypes = [
             0
             1
