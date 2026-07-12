@@ -22,7 +22,7 @@
           contentPadding = 2;
           fontScale = 1;
           enableExclusionZoneInset = true;
-          backgroundOpacity = lib.mkForce 0.93;
+          backgroundOpacity = 1.0;
           useSeparateOpacity = false;
           marginVertical = 4;
           marginHorizontal = 4;
