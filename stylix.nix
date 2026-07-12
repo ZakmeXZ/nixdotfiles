@@ -3,7 +3,7 @@
 {
     stylix = {
         enable = true;
-        image = builtins.toPath "/home/zakme/Pictures/Wallpapers/wallpaper.png";
+        image = ./wallpapers/wallpaper.png;
         polarity = "dark";
     };
 }
