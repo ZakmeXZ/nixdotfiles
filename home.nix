@@ -21,7 +21,6 @@
         libreoffice-still
         lutris
         wowup-cf
-        pywal
     ];
 
     gtk = {
