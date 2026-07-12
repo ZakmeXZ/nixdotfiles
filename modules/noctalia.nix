@@ -1,4 +1,4 @@
-{ pkgs, inputs, ... }:
+{ pkgs, lib, inputs, ... }:
 
 {
     imports = [
@@ -22,7 +22,7 @@
           contentPadding = 2;
           fontScale = 1;
           enableExclusionZoneInset = true;
-          backgroundOpacity = 1;
+          backgroundOpacity = lib.mkForce 0.93;
           useSeparateOpacity = false;
           marginVertical = 4;
           marginHorizontal = 4;
