@@ -454,7 +454,7 @@
           monitors = [ ];
           location = "top_right";
           overlayLayer = true;
-          backgroundOpacity = 1;
+          backgroundOpacity = 1.0;
           respectExpireTimeout = false;
           lowUrgencyDuration = 3;
           normalUrgencyDuration = 8;
