@@ -16,13 +16,13 @@
           density = "default";
           showOutline = false;
           showCapsule = true;
-          capsuleOpacity = 1;
+          capsuleOpacity = 1.0;
           capsuleColorKey = "none";
           widgetSpacing = 6;
           contentPadding = 2;
           fontScale = 1;
           enableExclusionZoneInset = true;
-          backgroundOpacity = lib.mkForce 0.93;
+          backgroundOpacity = 0.93;
           useSeparateOpacity = false;
           marginVertical = 4;
           marginHorizontal = 4;
