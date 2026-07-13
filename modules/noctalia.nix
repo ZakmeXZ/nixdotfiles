@@ -13,9 +13,9 @@
         };
         bar = {
           barType = "simple";
-          position = "top";
+          position = "left";
           monitors = [ ];
-          density = "default";
+          density = "comfortable";
           showOutline = false;
           showCapsule = true;
           capsuleOpacity = 1;
