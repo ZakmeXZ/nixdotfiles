@@ -25,6 +25,5 @@
                 desktop = 11;
             };
         };
-        targets.ghostty.enable = false;
     };
 }
