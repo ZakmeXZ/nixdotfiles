@@ -12,7 +12,7 @@
             palette_source = "wallpaper";
         };
         bar = {
-          barType = "simple";
+          barType = "floating";
           position = "left";
           monitors = [ ];
           density = "comfortable";
@@ -363,7 +363,7 @@
           disableDesktopWidgets = true;
         };
         dock = {
-          enabled = true;
+          enabled = false;
           position = "bottom";
           displayMode = "auto_hide";
           dockType = "floating";
