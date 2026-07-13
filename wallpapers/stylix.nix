@@ -3,7 +3,7 @@
 {
     stylix = {
         enable = true;
-        image = ./wallpapers/wallpaper.png;
+        image = ./wallpaper.png;
         base16Scheme = "${pkgs.base16-schemes}/share/themes/everforest.yaml";
         polarity = "dark";
         fonts = {
