@@ -154,7 +154,7 @@
           smoothScrollEnabled = true;
         };
         ui = {
-          fontDefault = "DejaVu Sans";
+          fontDefault = lib.mkForce "Inter";
           fontFixed = "DejaVu Sans Mono";
           fontDefaultScale = 1;
           fontFixedScale = 1;
