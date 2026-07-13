@@ -24,6 +24,7 @@
                 terminal = 12;
                 desktop = 11;
             };
+            targets.noctalia.enable = false;
         };
     };
 }
