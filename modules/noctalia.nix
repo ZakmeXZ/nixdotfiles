@@ -1,6 +1,6 @@
-{ pkgs, lib, inputs, ... }:
-
+{ pkgs, inputs, ... }:
 {
+  home-manager.users.drfoobar = {
     imports = [
       inputs.noctalia.homeModules.default
     ];
@@ -161,7 +161,7 @@
           tooltipsEnabled = true;
           scrollbarAlwaysVisible = true;
           boxBorderEnabled = false;
-          panelBackgroundOpacity = 1.0;
+          panelBackgroundOpacity = 0.93;
           translucentWidgets = false;
           panelsAttachedToBar = true;
           settingsPanelMode = "attached";
@@ -365,7 +365,7 @@
           position = "bottom";
           displayMode = "auto_hide";
           dockType = "floating";
-          backgroundOpacity = 1.0;
+          backgroundOpacity = 1;
           floatingRatio = 1;
           size = 1;
           onlySameOutput = true;
@@ -454,7 +454,7 @@
           monitors = [ ];
           location = "top_right";
           overlayLayer = true;
-          backgroundOpacity = 1.0;
+          backgroundOpacity = 1;
           respectExpireTimeout = false;
           lowUrgencyDuration = 3;
           normalUrgencyDuration = 8;
@@ -483,7 +483,7 @@
           location = "top_right";
           autoHideMs = 2000;
           overlayLayer = true;
-          backgroundOpacity = 1.0;
+          backgroundOpacity = 1;
           enabledTypes = [
             0
             1
@@ -571,4 +571,5 @@
         };
       };
     };
+  };
 }
