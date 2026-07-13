@@ -155,7 +155,7 @@
         };
         ui = {
           fontDefault = "DejaVu Sans";
-          fontFixed = "";
+          fontFixed = "DejaVu Sans Mono";
           fontDefaultScale = 1;
           fontFixedScale = 1;
           tooltipsEnabled = true;
