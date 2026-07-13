@@ -16,13 +16,13 @@
           density = "default";
           showOutline = false;
           showCapsule = true;
-          capsuleOpacity = 1.0;
+          capsuleOpacity = 1;
           capsuleColorKey = "none";
           widgetSpacing = 6;
           contentPadding = 2;
           fontScale = 1;
           enableExclusionZoneInset = true;
-          backgroundOpacity = 1.0;
+          backgroundOpacity = 0.93;
           useSeparateOpacity = false;
           marginVertical = 4;
           marginHorizontal = 4;
@@ -154,8 +154,8 @@
           smoothScrollEnabled = true;
         };
         ui = {
-          fontDefault = lib.mkForce "Inter";
-          fontFixed = lib.mkForce "JetBrainsMono Nerd Font";
+          fontDefault = "";
+          fontFixed = "";
           fontDefaultScale = 1;
           fontFixedScale = 1;
           tooltipsEnabled = true;
