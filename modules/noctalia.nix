@@ -8,13 +8,6 @@
       enable = true;
       settings = {
         settingsVersion = 0;
-        theme = {
-            wallpaper_colors = {
-                enable = true;
-                mode = "dark";
-                palette_type = "vibrant";
-            };
-        };
         bar = {
           barType = "floating";
           position = "left";
@@ -515,8 +508,8 @@
           backlightDeviceMappings = [ ];
         };
         colorSchemes = {
-          useWallpaperColors = false;
-          predefinedScheme = "Noctalia (default)";
+          useWallpaperColors = true;
+          predefinedScheme = "";
           darkMode = true;
           schedulingMode = "off";
           manualSunrise = "06:30";
