@@ -12,6 +12,7 @@
 
     home.packages = with pkgs; [
         btop
+        matugen
         fastfetch
         telegram-desktop
         spotify

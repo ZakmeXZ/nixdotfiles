@@ -9,7 +9,11 @@
       settings = {
         settingsVersion = 0;
         theme = {
-            palette_source = "wallpaper";
+            wallpaper_colors = {
+                enable = true;
+                mode = "dark";
+                palette_type = "vibrant";
+            };
         };
         bar = {
           barType = "floating";
@@ -23,7 +27,7 @@
           widgetSpacing = 6;
           contentPadding = 2;
           fontScale = 1;
-          enableExclusionZoneInset = true;
+          enableExclusionZoneInset = fals;
           backgroundOpacity = 0.93;
           useSeparateOpacity = false;
           marginVertical = 4;
@@ -204,7 +208,7 @@
         wallpaper = {
           enabled = true;
           overviewEnabled = false;
-          directory = "";
+          directory = "/home/zakme/dotfiles/wallpapers";
           monitorDirectories = [ ];
           enableMultiMonitorDirectories = false;
           showHiddenFiles = false;
