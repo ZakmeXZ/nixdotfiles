@@ -1,6 +1,10 @@
-{ config, pkgs, ... }:
+{ config, pkgs, inputs, ... }:
 
 {
+    imports = [
+        inputs.stylix.homeManagerModules.stylix
+    ];
+
     stylix = {
         enable = true;
         image = ./wallpaper.png;
@@ -25,6 +29,7 @@
                 desktop = 11;
             };
         };
+        targets.ghostty.enable = false;
         targets.noctalia.enable = false;
     };
 }
