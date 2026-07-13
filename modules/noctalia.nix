@@ -8,6 +8,9 @@
       enable = true;
       settings = {
         settingsVersion = 0;
+        theme = {
+            palette_source = "wallpaper";
+        };
         bar = {
           barType = "simple";
           position = "top";
