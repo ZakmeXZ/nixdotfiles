@@ -155,7 +155,7 @@
         };
         ui = {
           fontDefault = lib.mkForce "Inter";
-          fontFixed = "DejaVu Sans Mono";
+          fontFixed = lib.mkForce "JetBrainsMono Nerd Font";
           fontDefaultScale = 1;
           fontFixedScale = 1;
           tooltipsEnabled = true;
