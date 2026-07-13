@@ -161,7 +161,7 @@
           tooltipsEnabled = true;
           scrollbarAlwaysVisible = true;
           boxBorderEnabled = false;
-          panelBackgroundOpacity = 0.93;
+          panelBackgroundOpacity = 1.0;
           translucentWidgets = false;
           panelsAttachedToBar = true;
           settingsPanelMode = "attached";
