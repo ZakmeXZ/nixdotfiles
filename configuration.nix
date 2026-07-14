@@ -142,7 +142,6 @@
      easyeffects
      pavucontrol
      xwayland-satellite
-     vim
   ];
 
   fonts.packages = with pkgs; [

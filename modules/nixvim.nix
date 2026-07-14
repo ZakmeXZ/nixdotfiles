@@ -7,7 +7,8 @@
 
     programs.nixvim = {
         enable = true;
-	
+	colorscheme = "Gruvbox Dark";
+
 	nixpkgs.source = inputs.nixpkgs;
     };
 }
