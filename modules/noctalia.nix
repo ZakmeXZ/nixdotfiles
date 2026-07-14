@@ -200,7 +200,7 @@
         };
         wallpaper = {
           enabled = true;
-          overviewEnabled = false;
+          overviewEnabled = true;
           directory = "/home/zakme/dotfiles/wallpapers";
           monitorDirectories = [ ];
           enableMultiMonitorDirectories = false;

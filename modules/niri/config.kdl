@@ -283,9 +283,18 @@ window-rule {
 
 // Example: enable rounded corners for all windows.
 // (This example rule is commented out with a "/-" in front.)
-/-window-rule {
-    geometry-corner-radius 12
+window-rule {
+    geometry-corner-radius 20
     clip-to-geometry true
+}
+
+layer-rule {
+    match namespace="^noctalia-overview*"
+    place-within-backdrop true
+}
+
+debug {
+    honor-xdg-activation-with-invalid-serial
 }
 
 binds {
