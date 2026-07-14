@@ -37,6 +37,7 @@
             left = [
               {
                 id = "Launcher";
+                useDistroLogo = true;
               }
               {
                 id = "Clock";
