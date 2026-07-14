@@ -74,6 +74,7 @@
               }
               {
                 id = "ControlCenter";
+                colorizeDistroLogo = true;
                 useDistroLogo = true;
               }
             ];
