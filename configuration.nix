@@ -122,18 +122,6 @@
     ];
   };
 
-  programs.neovim = {
-	enable = true;
-	defaultEditor = true;
-	configure = {
-		customRC = ''
-			set tabstop=4
-			set shiftwidth=4
-			set expandtab
-		'';
-	};
-  };
-
   programs.niri.enable = true;
 
   programs.zsh.enable = true;
@@ -154,6 +142,7 @@
      easyeffects
      pavucontrol
      xwayland-satellite
+     vim
   ];
 
   fonts.packages = with pkgs; [
