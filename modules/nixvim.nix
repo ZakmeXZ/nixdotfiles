@@ -7,7 +7,21 @@
 
     programs.nixvim = {
         enable = true;
-	colorscheme = "Gruvbox Dark";
+	
+	settings = {
+	    terminal_colors = true;
+	    undercurl = true;
+	};
+
+	opts = {
+	    number = true;
+	    relativenumber = true;
+	    tabstop = 4;
+	    shiftwidth = 4;
+	    expandtab = true;
+	    smarttab = true;
+	    autoindent = true;
+	};
 
 	nixpkgs.source = inputs.nixpkgs;
     };
