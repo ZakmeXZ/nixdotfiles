@@ -9,7 +9,7 @@
       settings = {
         settingsVersion = 0;
         bar = {
-          barType = "floating";
+          barType = "simple";
           position = "left";
           monitors = [ ];
           density = "comfortable";
