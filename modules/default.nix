@@ -7,6 +7,7 @@
         ./zsh.nix
         ./niri/niri.nix
         ./noctalia.nix
+	./nixvim.nix
     ];
 }
 
