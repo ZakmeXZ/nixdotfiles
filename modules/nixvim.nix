@@ -21,8 +21,8 @@
 	colorschemes.gruvbox = {
 	    enable = true;
 	    settings = {
-		terminal_colors = true;
-		undercurl = true;
+		    terminal_colors = true;
+		    undercurl = true;
 	    };
 	};
 
