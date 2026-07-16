@@ -12,6 +12,8 @@
 
   boot.kernelPackages = pkgs.linuxPackages_latest;
 
+  boot.extraModulePackages = [ config.boot.kernelPackages.wireguard ];
+
   networking.hostName = "nixos";
 
   networking.networkmanager.enable = true;
@@ -142,6 +144,8 @@
      easyeffects
      pavucontrol
      xwayland-satellite
+     wireguard
+     wireguard-tools
   ];
 
   fonts.packages = with pkgs; [
