@@ -12,7 +12,7 @@
 
   boot.kernelPackages = pkgs.linuxPackages_latest;
 
-  boot.extraModulePackages = [ config.boot.kernelPackages.wireguard ];
+#  boot.extraModulePackages = [ config.boot.kernelPackages.wireguard ];
 
   networking.hostName = "nixos";
 
@@ -25,6 +25,20 @@
   services.upower.enable = true;
 
   time.timeZone = "Europe/Dublin";
+
+  zramSwap = {
+    enable = true;
+    priority = 999;
+    algorithm  = "zstd";
+    memoryPercent = 50;
+  };
+
+  swapDevices = [
+    {
+      device = "/dev/nvme0n1p2";
+      priority = 1;
+    }
+  ];
 
   services.greetd = {
 	enable = true;
@@ -144,8 +158,7 @@
      easyeffects
      pavucontrol
      xwayland-satellite
-     wireguard
-     wireguard-tools
+     #wireguard-tools
   ];
 
   fonts.packages = with pkgs; [
