@@ -12,6 +12,8 @@
 
   boot.kernelPackages = pkgs.linuxPackages_latest;
 
+  boot.kernel.sysctl."vm.swappiness" = 100;
+
 #  boot.extraModulePackages = [ config.boot.kernelPackages.wireguard ];
 
   networking.hostName = "nixos";
@@ -158,7 +160,6 @@
      easyeffects
      pavucontrol
      xwayland-satellite
-     #wireguard-tools
   ];
 
   fonts.packages = with pkgs; [

@@ -7,7 +7,6 @@
 
     imports = [
         ./modules
-        #./wallpapers/stylix.nix
     ];
 
     home.packages = with pkgs; [

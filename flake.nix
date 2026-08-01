@@ -13,11 +13,6 @@
             inputs.nixpkgs.follows = "nixpkgs";
         };
 
-        stylix = {
-            url = "github:nix-community/stylix";
-            inputs.nixpkgs.follows = "nixpkgs";
-        };
-
         home-manager = {
             url = "github:nix-community/home-manager";
             inputs.nixpkgs.follows = "nixpkgs";
@@ -30,7 +25,6 @@
         nixpkgs,
         home-manager,
         noctalia,
-        stylix,
         ...
     }@inputs: {
         nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
